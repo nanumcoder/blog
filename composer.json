@@ -5,7 +5,8 @@
     "authors": [
         {
             "name": "nanumcoder",
-            "email": "nanumcoder@gmail.com"
+            "email": "nanumcoder@gmail.com",
+            "nanumcoder/blog": "1.0.0"
         }
     ],
     "minimum-stability": "dev",
