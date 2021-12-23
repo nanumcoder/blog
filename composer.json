@@ -1,0 +1,28 @@
+{
+    "name": "nanumcoder/blog",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nanumcoder",
+            "email": "nanumcoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NanumCoder\\Blog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NanumCoder\\Blog\\NanumCoderServiceProvider"
+            ]
+        }
+    }
+}
