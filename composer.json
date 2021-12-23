@@ -5,14 +5,14 @@
     "authors": [
         {
             "name": "nanumcoder",
-            "email": "nanumcoder@gmail.com",
-            "nanumcoder/blog": "1.0.0"
+            "email": "nanumcoder@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.3|^8.0",
-        "laravel/framework": "^8.*"
+        "laravel/framework": "^8.*",
+        "nanumcoder/blog": "^1.0.0"
     },
     "autoload": {
         "psr-4": {
